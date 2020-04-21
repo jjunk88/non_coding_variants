@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import argparse
 import math
-from scipy.stats import ttest_1samp, wilcoxon, ttest_ind, mannwhitneyu
+from scipy.stats import mannwhitneyu
 from toolz import unique
 
 parser = argparse.ArgumentParser()
